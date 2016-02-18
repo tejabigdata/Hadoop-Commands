@@ -1,4 +1,0 @@
-Name Node : http://sas-hdp-d01.devapp.domain:50070
-Resource Manager : http://sas-hdp-d01.devapp.domain:8088/cluster
-Spark Jobs History : http://sas-hdp-d07.devapp.domain:18088
-HUE : http://sas-hdp-d07.devapp.domain:8888
