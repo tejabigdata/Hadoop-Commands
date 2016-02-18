@@ -1,5 +1,3 @@
 	1. Job Submit --------> spark-submit --class com.lumeris.Spark.SparkTest.WordCount --master yarn-cluster /home/DEVAPP/tnallamothu/SparkTest-0.0.1-SNAPSHOT.jar /user/tnallamothu/SampleFile.txt /user/tnallamothu/SampleOutput
 	
-	
-	
-	Adding a comment
+
