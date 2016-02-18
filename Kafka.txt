@@ -1,0 +1,9 @@
+	1. CREATE TOPIC   ------->     kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test4
+
+	2. LIST TOPIC  ------------->  kafka-topics --list --zookeeper sas-hdp-d07.devapp.domain:2181
+
+	3. CONSUMER  ------------>  kafka-console-consumer --zookeeper localhost:2181 --topic test --from-beginning
+
+	4. PRODUCER -------------->  kafka-console-producer --broker-list sas-hdp-d07.devapp.domain:9092 --topic test4
+
+	5. DELETE TOPIC --------------> kafka-topics --delete --zookeeper localhost:2181 --topic test

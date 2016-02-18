@@ -1,0 +1,1 @@
+Job Submit ----->  hadoop jar WordCount.jar com.test.MRreduce.WordCount  /user/tnallamothu/SampleFile.txt /user/tnallamothu/SampleOutput 

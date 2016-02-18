@@ -1,0 +1,7 @@
+Navigate to the project root folder in cmd
+
+Compile
+javac -cp .;C:\jars\*; com\lumeris\Test.java
+
+Run
+Java -cp .;C:\jars\*; com.lumeris.Test

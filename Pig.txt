@@ -1,0 +1,1 @@
+exec hdfs://sas-hdp-d01.devapp.domain:8020/user/tnallamothu/pigtest.pig;

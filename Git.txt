@@ -1,0 +1,21 @@
+git --version
+Git config --list
+Git config --global user.name "Teja Nallamothu"
+Git config --global user.email "phani.teja89@gmail.com"
+Git config user.email
+Git  help commit
+Cd ~
+--Navigate to project folder
+Git init
+Git add .
+Git commit -m "Comments"
+Git log
+Git log --author="Teja"
+Git status
+Git diff
+Git diff --staged
+Git rm first.txt
+Git checkout -- index.html
+Git remote add githubreponame https://github….git
+
+Git push -u githubreponame
