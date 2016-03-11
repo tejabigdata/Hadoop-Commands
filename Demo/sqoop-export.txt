@@ -1,0 +1,1 @@
+sqoop export --connect 'jdbc:sqlserver://SAS-ETL-DEV-V01.DEVAPP.DOMAIN\ETL_DEVA; database=EHITRANS;' --username hdp_dev_sqoop --options-file /home/workspace/etc/secret/.hdpdevsqoop --table "STG_IPAAS_CLAIM"  --update-key REC_ID  --update-mode allowinsert --export-dir /workspace/EHITRANS_DEV/STG_IPAAS_CLAIM -m 1 -input-fields-terminated-by "\t"
